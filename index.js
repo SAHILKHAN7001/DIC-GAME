@@ -64,4 +64,6 @@ function resetAll() {
         player2Dice.textContent = "-"
         player1Scoreboard.textContent=0
         player2Scoreboard.textContent=0
+        rollBtn.style.display="block";
+        resetBtn.style.display="none";
 }
